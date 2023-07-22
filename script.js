@@ -73,9 +73,11 @@ $("#searchbtn").on("click", function(event){
 
 function APIcalls(){
     
+// OpenWeather API & Key
+
     url = "https://api.openweathermap.org/data/2.5/forecast?q=";    
     currenturl = "https://api.openweathermap.org/data/2.5/weather?q=";
-    APIkey = "&appid=5ce8439fd4264478d1da0b24a7cd547d";
+    APIkey = "986630840632a725369847b0bec6ba74"; // Generated for re-submission
     queryurl = url + city + APIkey;
     current_weather_url = currenturl + city + APIkey; 
     
